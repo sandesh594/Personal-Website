@@ -6,7 +6,7 @@ import Todo from '../assets/Todo.png'
 
 export const ProjectList=[
     {
-        name:'Crypto currency App',
+        name:'Crypto Currency App',
         image:crypto,
         skills:'HTML,CSS,Javascript,React.js',
 
@@ -14,7 +14,7 @@ export const ProjectList=[
     {
         name:'Quiz App',
         image:quiz,
-        skills:'HTML,CSS,Javascript,React.js',
+        skills:'HTML,CSS,Javascript,React.js,Material UI',
 
     },
     {
