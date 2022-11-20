@@ -1,5 +1,3 @@
-
-
 .navbar {
     width: 100%;
     height: 100px;
@@ -61,31 +59,36 @@
       width: 70px;
     }
   }
-  
-  @media only screen and (max-width: 600px) {
-    .toggleButton {
-      display: flex;
-    }
-    #close a {
-      display: none;
-    }
-  }
-  
+
   @media only screen and (min-width: 600px) {
     .toggleButton {
       display: none;
     }
-  
     .hiddenLinks {
       display: none;
     }
-  
+
     #open {
       height: 100px;
     }
   
     #open .links {
       flex-direction: row;
+    }
+
+
+
+
+
+  
+  }
+
+  @media only screen and (max-width: 600px) {
+    .toggleButton {
+      display: flex;
+    }
+    #close a {
+      display: none;
     }
   }
   
