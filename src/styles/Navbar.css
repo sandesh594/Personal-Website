@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;
     height: 100px;
-    background: #21325e;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
   }
   
   .links {
@@ -44,6 +44,7 @@
   }
   
   #open .links {
+   
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 100px;

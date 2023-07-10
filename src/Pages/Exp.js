@@ -10,8 +10,9 @@ function Exp() {
   return (
     <div className='Exp'>
       <VerticalTimeline lineColor='#3e497a'>
+        
         <VerticalTimelineElement
-                 className='vertical-timeline-element--education'
+         className='vertical-timeline-element--education'
 
          date='2010-2012'
          iconStyle={{background:'#3e497a', color:'#fff'}}
@@ -19,7 +20,7 @@ function Exp() {
          >
           <h3 className='vertical-timeline-element-title'>Sri mookambika temple high school mavinakatte</h3>
           <p>SSLC-80.6%</p>
-        </VerticalTimelineElement> v
+  </VerticalTimelineElement> 
 
         <VerticalTimelineElement
         className='vertical-timeline-element--education'

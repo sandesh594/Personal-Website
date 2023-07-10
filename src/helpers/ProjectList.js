@@ -3,6 +3,7 @@ import crypto from '../assets/crypto.png'
 import quiz from '../assets/quiz.png'
 import Registration from '../assets/Registration.png'
 import Todo from '../assets/Todo.png'
+import Google from '../assets/google.png'
 
 export const ProjectList=[
     {
@@ -27,6 +28,12 @@ export const ProjectList=[
         name:'Todo App',
         image:Todo,
         skills:'HTML,CSS,Javascript,React.js',
+
+    },
+    {
+        name:'Google clone',
+        image:Google,
+        skills:'HTML,CSS,Javascript,React.js,Material UI',
 
     }
 ]

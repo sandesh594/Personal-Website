@@ -9,11 +9,15 @@ import ReorderIcon from '@mui/icons-material/Reorder';
 
 const Navbar = () => {
 
-  const[expandNavbar,setExpandNavbar]=useState(false)
-  const location=useLocation()
+  const[expandNavbar,setExpandNavbar]=useState(false);
+
+
+  const location=useLocation();
+  
 
   useEffect(()=>{
     setExpandNavbar(false)
+    
 
   },[location] )
 
@@ -35,7 +39,7 @@ const Navbar = () => {
             </div>
             <div className='links'>
                 <Link to='/'>Home</Link>
-                <Link to='/projects'>Projects</Link>
+                <Link to="/projects">Projects</Link>
                 <Link to='/Exp'>Experience</Link>
             </div>
         

@@ -5,15 +5,18 @@ import GitHub from '@mui/icons-material/GitHub'
 import '../styles/ProjectDisplay.css'
 
 const ProjectDisplay = () => {
+  
+//use params will take from url that is 'id'
     const {id}=useParams()
-    const projec=ProjectList[id]
+
+    const projec=ProjectList[id];
 
   return (
     <div className='project'>
         <h1>{projec.name}</h1>
         <img src={projec.image}  />
         <p>
-            <b>Skills:</b>{projec.skills}
+            <b>Skills : </b>{projec.skills+"."}
         </p>
         <GitHub />
         
